@@ -4,8 +4,6 @@ A collection of animated fragment shader backgrounds for Flutter providing stunn
 
 ## Features
 
-![Example Web App Demo](example.webp)
-
 - 🔥 **7 Different Effect Types**: Gradient Cycle, Fire, Plasma, Aurora, Magma, Rose, and Embryo
 - 🎨 **GPU Accelerated**: Powered by fragment shaders for smooth 60fps animations
 - ⚙️ **Customizable**: Adjust film grain intensity and animation speed
