@@ -1,13 +1,6 @@
 # Lava Effect Background Widget
 
-A collection of animated fragment shader backgrounds for Flutter providing stunning visual effects perfect for app backgrounds.
-
-## Features
-
-- 🔥 **7 Different Effect Types**: Gradient Cycle, Fire, Plasma, Aurora, Magma, Rose, and Embryo
-- 🎨 **GPU Accelerated**: Powered by fragment shaders for smooth 60fps animations
-- ⚙️ **Customizable**: Adjust film grain intensity and animation speed
-- 📱 **Optimized**: Efficient rendering with minimal CPU overhead
+A collection of animated fragment shader backgrounds for Flutter providing visual effects perfect for app backgrounds.
 
 ## Effect Types
 
@@ -123,20 +116,6 @@ Navigator.push(
 | `type` | `LavaEffectType` | `gradientCycle` | The visual effect style |
 | `filmGrainIntensity` | `double` | `0.02` | Film grain overlay (0.0 - 0.1) |
 | `animationSpeed` | `double` | `1.0` | Animation speed multiplier (0.1 - 3.0) |
-
-## Performance Tips
-
-1. **Avoid Multiple Instances**: Use only one lava background per screen
-2. **Adjust Speed for Battery**: Lower animation speed saves battery
-3. **Film Grain**: Higher values add texture but may impact performance on older devices
-4. **Fullscreen**: The effect is optimized for fullscreen usage
-
-## Technical Details
-
-- **Rendering**: Uses `CustomPaint` with `FragmentShader`
-- **Animation**: Ticker-based frame updates
-- **Shader Language**: GLSL 460 core
-- **Platform Support**: Works on all platforms supporting fragment shaders
 
 ## Shader Files
 
