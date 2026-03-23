@@ -135,6 +135,4 @@ See `lava_effect_example.dart` for:
 - Simple usage example
 - Control panel implementation
 
-## License
-
 Based on shader work inspired by various ShaderToy creations, adapted for Flutter.
