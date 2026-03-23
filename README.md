@@ -1,6 +1,6 @@
 # Lava Effect Background Widget
 
-A collection of animated fragment shader backgrounds for Flutter providing visual effects perfect for app backgrounds.
+A collection of animated fragment shader backgrounds for Flutter providing visual effects for app backgrounds.
 
 ## Effect Types
 
